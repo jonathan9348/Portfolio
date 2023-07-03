@@ -1,0 +1,21 @@
+.background-gradient {
+    background: linear-gradient(to top, #141414, #383838);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: gradientAnimation 10s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 100%; }
+    50% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  }
+  
+  html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

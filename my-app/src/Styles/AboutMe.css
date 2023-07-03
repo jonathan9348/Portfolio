@@ -1,0 +1,60 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .logo {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 1px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px; /* Ajusta el ancho máximo del contenido según tus necesidades */
+    margin-top: 20px;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 20px;
+    color: aliceblue;
+  }
+  
+  .photo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .new-photo {
+    width: 350px; /* Ajusta el tamaño de la nueva foto según tus necesidades */
+    height: auto;
+    border-radius: 80px; /* Agrega bordes redondeados */
+    
+    
+  }
+
+  .line-divider {
+    width: 80%;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 20px;
+   
+  }
+  
+  
