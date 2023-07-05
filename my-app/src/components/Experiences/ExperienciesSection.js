@@ -4,7 +4,8 @@ import '../../Styles/Experience.css';
 const Experience = () => {
   return (
     <div className="experience" name="Experience">
-      <h2>Experience</h2>
+      <h1>Experience</h1>
+      
 
       <div className="experience-item">
         <h3>Desarrollo de e-commerce</h3>

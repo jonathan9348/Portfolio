@@ -1,0 +1,83 @@
+.education {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .content {
+    width: 70%;
+    padding-right: 20px;
+    color: #fff;
+    margin:auto;
+    text-align: center;
+  }
+
+  .content h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .education h2 {
+    font-size: 24px;
+  }
+
+  .education h5 {
+    color:floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .education li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .education p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .carousel-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slide {
+    
+    padding: 20px;
+  }
+  
+  .carousel-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .carousel .carousel .thumb {
+    width: 10px;
+    height: 10px;
+    background: #888;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 0.5;
+  }
+  
+  .carousel .carousel .thumb.selected {
+    opacity: 1;
+  }
+  
+  .carousel .carousel .thumbs-wrapper {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  

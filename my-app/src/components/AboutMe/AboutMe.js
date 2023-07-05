@@ -9,6 +9,7 @@ const AboutMe = () => {
       <div className="logo-container">
         <img src={Logo} alt="Logo" className="logo" />
       </div>
+      <h1 className='ocupattion'>Full Stack Developer</h1>
       <div className="line-divider"></div>
       <div className="content-container">
       
